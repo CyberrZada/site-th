@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background: #fffafa;
+}
+.name {
+  font-family: "Righteous", cursive;
+  color: black;
+}
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px 0px;
+}
+.conteudo {
+  margin-bottom: 48px;
+  border-top: 0.4px solid black;
+}
+.produtos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.produtos-escritos {
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: black;
+  margin-top: 32px;
+}
+.produtos-imagem {
+  height: 200px;
+  margin: 40px;
+}
+.produtos-imagens {
+  height: 200px;
+  margin: 40px;
+}
+.imagem {
+  height: 200px;
+  margin: 40px;
+}
+.chaveiros {
+  height: 200px;
+  margin: 40px;
+}
+.last {
+  height: 200px;
+  margin: 40px;
+}
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid black;
+}
+.logo-rodape {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
