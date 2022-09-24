@@ -25,7 +25,7 @@ body {
 }
 .cabecalho-menu {
   display: flex;
-  gap: 32px;
+  gap: 50px;
   font-family: "Righteous", cursive;
   color: black;
   font-weight: 400;
