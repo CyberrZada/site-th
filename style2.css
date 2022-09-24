@@ -38,31 +38,15 @@ body {
   margin-top: 32px;
 }
 .produtos-imagem {
-  height: 200px;
-  margin: 40px;
-}
-.produtos-imagens {
-  height: 200px;
-  margin: 40px;
-}
-.imagem {
-  height: 200px;
-  margin: 40px;
-}
-.chaveiros {
-  height: 200px;
-  margin: 40px;
-}
-.last {
-  height: 200px;
-  margin: 40px;
+  height: 180px;
+  margin: 67px;
 }
 .rodape {
-    padding: 32px;
-    border-top: 0.4px solid black;
+  padding: 32px;
+  border-top: 0.4px solid black;
 }
 .logo-rodape {
-    height: 100px;
-    display: block;
-    margin: 0 auto;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
 }
