@@ -83,7 +83,6 @@ body {
   height: 250px;
 }
 
-
 .conteudo-secundario {
   display: flex;
   flex-direction: column;
@@ -117,5 +116,5 @@ body {
 }
 
 a {
-  color: white ;
+  color: white;
 }
