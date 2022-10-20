@@ -17,9 +17,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 24px 0px;
-  
 }
 .cabecalho-imagem {
   height: 65px;
@@ -62,19 +61,6 @@ body {
   font-size: 24px;
   color: black;
 }
-.conteudo-principal-escrito-botao {
-  background-color: black;
-  width: 185px;
-  padding: 1rem 0;
-  border: none;
-  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
-  font-family: "Righteous", cursive;
-  font-weight: 400;
-  font-size: 24px;
-  color: white;
-  text-align: center;
-}
 .conteudo-principal-escrito-botao:hover {
   background-color: grey;
 }
@@ -83,7 +69,12 @@ body {
   border-radius: 20px;
   height: 250px;
 }
-
+.paragrafo-principal {
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: black;
+}
 .conteudo-secundario {
   display: flex;
   flex-direction: column;
