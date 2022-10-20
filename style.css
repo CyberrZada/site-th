@@ -15,10 +15,11 @@ body {
 }
 .cabecalho {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 24px 0px;
+  
 }
 .cabecalho-imagem {
   height: 65px;
