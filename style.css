@@ -69,12 +69,6 @@ body {
   border-radius: 20px;
   height: 250px;
 }
-.paragrafo-principal {
-  font-family: "Righteous", cursive;
-  font-weight: 400;
-  font-size: 24px;
-  color: black;
-}
 .conteudo-secundario {
   display: flex;
   flex-direction: column;
