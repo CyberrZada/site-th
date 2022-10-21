@@ -49,6 +49,13 @@ body {
   flex-direction: column;
   gap: 32px;
 }
+.titulo {
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  font-size: 32px;
+  color: black;
+  padding: 30px;
+}
 .conteudo-principal-escrito-titulo {
   font-family: "Righteous", cursive;
   font-weight: 400;
@@ -56,6 +63,8 @@ body {
   color: black;
 }
 .conteudo-principal-escrito-subtitulo {
+  display: flex;
+  flex-wrap: wrap;
   font-family: "Righteous", cursive;
   font-weight: 400px;
   font-size: 24px;
@@ -85,22 +94,27 @@ body {
   color: black;
   margin-bottom: 16px;
 }
+
 .conteudo-secundario-paragrafo {
+  display: flex;
   font-family: "Righteous", cursive;
   font-weight: 300;
   font-size: 18px;
   color: black;
+  flex-wrap: wrap;
 }
 .rodape {
   padding: 5px;
   border-top: 0.4px solid black;
 }
-.logo-rodape {
-  height: 100px;
-  display: block;
-  margin: 0 auto;
-}
 
 a {
   color: white;
+}
+.rodape-marca {
+  font-family: "Righteous", cursive;
+  font-weight: 300;
+  font-size: 15px;
+  color: black;
+  padding-top: 30px;
 }
