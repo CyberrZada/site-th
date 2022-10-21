@@ -6,13 +6,17 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
 body {
   background: #fffafa;
 }
+
 .name {
   color: black;
   font-family: "Righteous", cursive;
+  padding-bottom: 10px;
 }
+
 .cabecalho {
   display: flex;
   flex-wrap: wrap;
@@ -20,9 +24,11 @@ body {
   justify-content: space-around;
   padding: 24px 0px;
 }
+
 .cabecalho-imagem {
   height: 65px;
 }
+
 .cabecalho-menu {
   display: flex;
   gap: 50px;
@@ -31,24 +37,29 @@ body {
   font-weight: 400;
   font-size: 18px;
 }
+
 .cabecalho-item {
   color: black;
 }
+
 .conteudo {
   margin-bottom: 48px;
   border-top: 0.4px solid black;
 }
+
 .conteudo-principal {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
 }
+
 .conteudo-principal-escrito {
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
+
 .titulo {
   font-family: "Righteous", cursive;
   font-weight: 400;
@@ -57,12 +68,14 @@ body {
   padding: 30px;
   margin-left: 5px;
 }
+
 .conteudo-principal-escrito-titulo {
   font-family: "Righteous", cursive;
   font-weight: 400;
   font-size: 24px;
   color: black;
 }
+
 .conteudo-principal-escrito-subtitulo {
   display: flex;
   flex-wrap: wrap;
@@ -72,14 +85,17 @@ body {
   color: black;
   margin-left: 30px;
 }
+
 .conteudo-principal-escrito-botao:hover {
   background-color: grey;
 }
+
 .conteudo-principal-imagem {
   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   height: 200px;
 }
+
 .conteudo-secundario {
   display: flex;
   flex-direction: column;
@@ -87,6 +103,7 @@ body {
   gap: 24px;
   margin-top: 200px;
 }
+
 .conteudo-secundario-titulo {
   border-top: 0.4px solid black;
   padding-top: 48px;
@@ -104,6 +121,7 @@ body {
   color: black;
   margin: 18px 50px 0px 35px;
 }
+
 .rodape {
   padding: 5px;
   border-top: 0.4px solid black;
@@ -112,6 +130,7 @@ body {
 a {
   color: white;
 }
+
 .rodape-marca {
   font-family: "Righteous", cursive;
   font-weight: 300;
