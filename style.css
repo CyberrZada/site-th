@@ -96,12 +96,11 @@ body {
 }
 
 .conteudo-secundario-paragrafo {
-  display: flex;
   font-family: "Righteous", cursive;
   font-weight: 300;
   font-size: 18px;
   color: black;
-  flex-wrap: wrap;
+  margin-left: 25px;
 }
 .rodape {
   padding: 5px;
