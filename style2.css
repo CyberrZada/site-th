@@ -63,3 +63,10 @@ body {
   justify-content: center;
   gap: 5px;
 }
+.rodape-marca {
+  font-family: "Righteous", cursive;
+  font-weight: 300;
+  font-size: 15px;
+  color: black;
+  padding-top: 30px;
+}
